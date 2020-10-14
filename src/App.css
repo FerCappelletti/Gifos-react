@@ -1,0 +1,42 @@
+.App {
+    text-align: center;
+}
+
+.App-content {
+    background-color: #282c34;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color: antiquewhite;
+}
+
+.modo-day {
+    display: flex;
+	justify-content: space-around;
+    background-color: antiquewhite;
+}
+
+.modo-day button {
+	align-self: center;
+    background-color: blueviolet;
+	color: black;
+	width: 150px;
+	height: 30px;
+	margin: 10px;
+}
+
+.modo-dark button{
+	background-color: blue;
+	color: white;
+}
+.tendencia {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+img {
+    max-height: 250px;
+}
